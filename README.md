@@ -8,4 +8,4 @@ The task is fairly simple. The smart contract itself is deployed with the encryp
 
 # Further Question
 ### Why don't we use Openzeppelin's onlyOwner by inheriting from the [Ownable](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol)?
-To simulate real world, we must make sure that anyone can call the function. If only the owner can call the function, this will break the real purpose of the smart contract. Just imagine that only the deployer of Uniswap's DAI/wETH swap can execute a DAI/wETH swap, wouldn't it be meaningful at all?
+To simulate real world, we must make sure that anyone can call the function. If only the owner can call the function, this will break the real purpose of the smart contract. Just imagine that only the deployer of Uniswap's DAI/wETH swap contract can execute a DAI/wETH swap, wouldn't it be meaningful at all?
