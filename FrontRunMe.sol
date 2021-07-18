@@ -14,7 +14,6 @@ contract FrontRunMe{
     
     function take(string calldata _secret) external {
         if(keccak256(abi.encodePacked(_secret)) == secretHash) {
-            
             uint _balanceExecutor = address(this).balance;
             msg.sender.transfer(_balanceExecutor);
             uint _balanceSmartContract = 0;
