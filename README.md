@@ -1,6 +1,6 @@
 # FrontRunMe
 
-FrontRunMe is a simple front-running simulation in the Ethereum blockchain, heavily inspired from [Scott's Bigelow 'How To Get Front-Run on Ethereum mainnet'](https://www.youtube.com/watch?v=UZ-NNd6yjFM&t=878s&ab_channel=ScottBigelow)
+FrontRunMe is a simple front-running simulation in the Ethereum blockchain, heavily inspired from [Scott Bigelow's 'How To Get Front-Run on Ethereum mainnet'](https://www.youtube.com/watch?v=UZ-NNd6yjFM&t=878s&ab_channel=ScottBigelow)
 
 
 # How It Works
